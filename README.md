@@ -1,7 +1,10 @@
-# test coverage for  [gulp-rev-replace (v0.4.3)](https://github.com/jamesknelson/gulp-rev-replace#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-rev-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-rev-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-rev-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-rev-replace)
+# npmtest-gulp-rev-replace
+
+#### test coverage for  [gulp-rev-replace (v0.4.3)](https://github.com/jamesknelson/gulp-rev-replace#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-rev-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-rev-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-rev-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-rev-replace)
+
 #### Rewrite occurences of filenames which have been renamed by gulp-rev
 
-[![NPM](https://nodei.co/npm/gulp-rev-replace.png?downloads=true)](https://www.npmjs.com/package/gulp-rev-replace)
+[![NPM](https://nodei.co/npm/gulp-rev-replace.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-rev-replace)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-rev-replace/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-rev-replace/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-rev-replace/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-rev-replace%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-rev-replace/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-rev-replace%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-rev-replace/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-rev-replace/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-rev-replace/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-rev-replace/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-rev-replace/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-rev-replace/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "James K Nelson",
-        "email": "james@numbattech.com",
         "url": "http://jamesknelson.com"
     },
     "bugs": {
@@ -67,13 +75,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "jamesknelson",
-            "email": "james@numbat.com.au"
+            "name": "jamesknelson"
         }
     ],
     "name": "gulp-rev-replace",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jamesknelson/gulp-rev-replace.git"
